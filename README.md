@@ -91,6 +91,6 @@ function docker_push_image() {
 }
 ```
 
-docker login && docker build -t austinrivas/nginx-php-grav:1.1.0 . && docker push austinrivas/nginx-php-grav:1.1.0
+docker login && docker build -t <user>/<image-name>:<version> . && docker push <user>/<image-name>:<version>
 
 ### Known Issues
